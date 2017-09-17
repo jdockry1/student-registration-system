@@ -4,7 +4,7 @@ jdk:
  - openjdk7
  
 after-success:
- - mvn build
+ - mvn -X build
  - mvn test
  
 notifications:
