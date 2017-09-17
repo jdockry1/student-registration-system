@@ -1,5 +1,4 @@
 language: java
 
-build:
-  ci:
-   - mvn build
+script:
+  - mvn clean install
