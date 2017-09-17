@@ -4,7 +4,7 @@ jdk:
  - openjdk7
  
 after-success:
- - mvn clean cobertura:cobertura
+ - X mvn clean cobertura:cobertura
  - mvn test
  
 notifications:
