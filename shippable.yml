@@ -1,11 +1,11 @@
 language: java
 
 jdk:
- - openjdk7
+ - openjdk8
  
 after-success:
- - mvn -X clean cobertura:cobertura
- - mvn -X test
+ - mvn clean cobertura:cobertura
+ - mvn test
  
 notifications:
   email:
