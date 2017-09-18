@@ -4,7 +4,7 @@ jdk:
  - openjdk8
  
 after-success:
- - mvn clean cobertura:cobertura
+ - mvn build
  - mvn test
  
 notifications:
