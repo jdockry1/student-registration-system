@@ -29,4 +29,10 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <distributionManagement>  
+        <repository>
+            <id>dropbox-mvn-repo</id>
+            <url>file:///C:/Dropbox/Public/REPOSITORY</url>
+        </repository>
+    </distributionManagement> 
 </project>
