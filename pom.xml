@@ -32,7 +32,7 @@
     <distributionManagement>  
         <repository>
             <id>dropbox-mvn-repo</id>
-            <url>file:///C:/Dropbox/Public/REPOSITORY</url>
+            <url>file:///C:/Users/Joe/Dropbox/StudentRegistrationSystem</url>
         </repository>
     </distributionManagement> 
 </project>
