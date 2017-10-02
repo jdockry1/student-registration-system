@@ -6,6 +6,7 @@ jdk:
 after-success:
  - mvn clean cobertura:cobertura
  - mvn test
+ - mvn deploy
 
 notifications:
   email:
