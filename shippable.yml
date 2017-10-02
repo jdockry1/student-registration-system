@@ -8,4 +8,4 @@ script:
 
 notifications:
   email:
-    j.dockry1@nuigalway.ie
+    - j.dockry1@nuigalway.ie
