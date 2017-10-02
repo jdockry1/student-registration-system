@@ -5,6 +5,8 @@ jdk:
  
 build:
   cache: true
+  cache_dir_list:
+   - /root/.m2
   ci:
    - mvn deploy
 
