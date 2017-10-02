@@ -29,12 +29,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <distributionManagement>  
-        <repository>
-            <id>dropbox-mvn-repo</id>
-            <url>file:///C:/Users/Joe/Dropbox/StudentRegistrationSystem</url>
-        </repository>
-    </distributionManagement> 
     <build>
         <plugins>
             <plugin>
