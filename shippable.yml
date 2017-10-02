@@ -3,10 +3,9 @@ language: java
 jdk:
  - openjdk8
  
-after-success:
- - mvn clean cobertura:cobertura
+script:
+ - mvn deploy
 
 notifications:
   email:
-    recipients:
-      j.dockry1@nuigalway.ie
+    j.dockry1@nuigalway.ie
